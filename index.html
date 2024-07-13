@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Committees Introduction Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.0/lib/vanilla-tilt.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            transition: background-color 0.3s, color 0.3s;
+        }
+        
+        body.light {
+            background-color: #ffffff;
+            color: #000000;
+        }
+        
+        body.dark {
+            background-color: black;
+            color: #ffffff;
+            
+        }
+        
+        #theme-toggle {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        #theme-toggle:hover {
+            background-color: #0056b3;
+        }
+        </style>
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/1.png" class="logo" alt="" style="height:7vh;width:7vh"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="secretariat.html">Secretariat</a></li>
+                <li><a class="active" href="index.html">Committees</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="sponsors.html">Sponsors</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="hero">
+        <h4>Welcome to </h4>
+        <h2>GMUN 2024</h2>
+        <h1>IIT Kharagpur</h1>
+        <p>          </p>
+        <p>          </p>
+    </section>
+
+    <section id="com1" class="section-p1">
+        <h2>COMMITTEES</h2>
+        
+        <div class="pro-container">
+            
+            <div class="pro">
+                <img src="img/c2.png" alt="">
+                <div class="des">
+                    <h2 style="text-align: center;">UNEP</h2>
+                    <h5> The United Nations Environment Programme (UNEP) is a leading global environmental authority established in 1972. Its mission is to provide leadership and encourage partnerships in caring for the environment by inspiring, informing, and enabling nations and peoples to improve their quality of life without compromising that of future generations.</h5>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="img/c1.png" alt="">
+                <div class="des">
+                    <h2 style="text-align: center;">UNDP</h2>
+                    <h5>The United Nations Development Programme (UNDP) is the global development network of the United Nations. It was established in 1965 and operates in approximately 170 countries and territories. The UNDP works to eradicate poverty, reduce inequalities, and build resilience so countries can sustain progress.</h5>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="img/c3.png" alt="">
+                <div class="des">
+                    <h2 style="text-align:center">UNICEF</h2>
+                    <h5>The United Nations Children's Fund (UNICEF) is a United Nations agency responsible for providing humanitarian and developmental aid to children worldwide. Established in 1946 to help children affected by World War II, it has since expanded its mandate to address the needs of children and mothers in developing countries.</h5>
+                </div>
+            </div>
+            
+            <div class="pro">
+                <img src="img/c4.png" alt="">
+                <div class="des">
+                    <h2 style="text-align: center;">G20</h2>
+                    <h5>The Group of Twenty (G20) is an international forum for governments and central bank governors from 19 countries and the European Union. Established in 1999 in response to the financial crises of the late 1990s, the G20 aims to bring together major advanced and emerging economies to discuss and coordinate on international economic and financial policies.</h5>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="img/c5.png" alt="">
+                <div class="des">
+                    <h2 style="text-align: center;">FAO</h2>
+                    <h5>The Food and Agriculture Organization of the United Nations (FAO) is a specialized agency established in 1945 with the goal of defeating hunger and improving nutrition and food security. The FAO is headquartered in Rome, Italy, and operates globally to raise levels of nutrition, improve agricultural productivity, better the lives of rural populations, and contribute to the growth of the world economy.</h5>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="img/c6.png" alt="">
+                <div class="des">
+                    <h2 style="text-align: center;">ECOSOC</h2>
+                    <h5>The United Nations Economic and Social Council (ECOSOC) is one of the six principal organs of the United Nations, established by the UN Charter in 1945. ECOSOC serves as the central platform for fostering debate and innovative thinking, forging consensus on ways forward, and coordinating efforts to achieve internationally agreed goals.`</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="follow">
+                <h3>Follow Us</h3>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="mailto:your-email@gmail.com" target="_blank" class="social-icon"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div>
+                <h4></h4>
+            </div>
+        </div>
+    </footer> 
+    <button id="theme-toggle">Toggle Theme</button> 
+    <script>
+        
+        // script.js
+document.addEventListener('DOMContentLoaded', () => {
+    const toggleButton = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    // Load the saved theme from localStorage
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    body.classList.add(savedTheme);
+
+    toggleButton.addEventListener('click', () => {
+        const currentTheme = body.classList.contains('light') ? 'light' : 'dark';
+        const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+
+        body.classList.remove(currentTheme);
+        body.classList.add(newTheme);
+
+        // Save the new theme to localStorage
+        localStorage.setItem('theme', newTheme);
+    });
+});
+
+    </script>
+</body>
+</html>
